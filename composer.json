@@ -1,0 +1,20 @@
+{
+    "name": "andri/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Andri Anggoro",
+            "email": "andri.anggoro21@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
